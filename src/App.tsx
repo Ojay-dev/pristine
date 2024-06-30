@@ -1,26 +1,9 @@
-import {
-  Bitcoin,
-  Calendar,
-  Certified,
-  Facebook,
-  Favourite,
-  FooterLogo,
-  HeroBg,
-  HoldingIphone,
-  Instagram,
-  LinkedIn,
-  Logo,
-  PowerService,
-  StarFace,
-  Twitter,
-} from "./assets/svgs";
-
 function App() {
   return (
     <main>
       <section className="hero-section relative min-h-screen bg-azul-600 pb-28 font-sora text-white lg:min-h-[150vh]">
         <div className="mx-auto w-11/12 pt-9 2xl:max-w-[1440px]">
-          <Logo />
+          <img src="src/assets/svgs/pristine-logo.svg" alt="Pristine logo" />
 
           <div className="relative z-10 mt-20 grid justify-items-center lg:mt-28 lg:justify-items-start">
             <h1 className="text-center font-sora text-[38px] font-bold leading-tight md:max-w-[800px] md:text-[76px] lg:text-left">
@@ -90,7 +73,7 @@ function App() {
           <div className="mb-8 flex flex-col justify-center gap-6 lg:flex-row">
             <div className="flex gap-x-4 rounded-[18px] bg-white px-4 py-6">
               <div>
-                <Calendar />
+                <img src="src/assets/svgs/calendar.svg" alt="calendar icon" />
               </div>
               <div className="grid gap-y-4">
                 <h4 className="text-xl font-bold">Convenient Scheduling</h4>
@@ -102,7 +85,7 @@ function App() {
 
             <div className="flex gap-x-4 rounded-[18px] bg-white px-4 py-6">
               <div>
-                <Certified />
+                <img src="src/assets/svgs/certified.svg" alt="certified icon" />
               </div>
               <div className="grid gap-y-4">
                 <h4 className="text-xl font-bold">Vetted Professionals</h4>
@@ -114,7 +97,7 @@ function App() {
 
             <div className="flex gap-x-4 rounded-[18px] bg-white px-4 py-6">
               <div>
-                <PowerService />
+                <img src="src/assets/svgs/power-service.svg" alt="power icon" />
               </div>
               <div className="grid gap-y-4">
                 <h4 className="text-xl font-bold">Customizable Services</h4>
@@ -128,7 +111,7 @@ function App() {
           <div className="flex flex-col justify-center gap-6 lg:flex-row">
             <div className="flex gap-x-4 rounded-[18px] bg-white px-4 py-6">
               <div>
-                <Bitcoin />
+                <img src="src/assets/svgs/bitcoin-03.svg" alt="coin icon" />
               </div>
               <div className="grid gap-y-4">
                 <h4 className="text-xl font-bold">Transparent Pricing</h4>
@@ -138,7 +121,7 @@ function App() {
 
             <div className="flex gap-x-4 rounded-[18px] bg-white px-4 py-6">
               <div>
-                <StarFace />
+                <img src="src/assets/svgs/star-face.svg" alt="starface icon" />
               </div>
               <div className="grid gap-y-4">
                 <h4 className="text-xl font-bold">User-Friendly App</h4>
@@ -174,7 +157,7 @@ function App() {
           style={{ background: "url(src/assets/svgs/wavy.svg) no-repeat top/cover, #205CE2" }}
         >
           <div className="absolute bottom-0 right-0">
-            <HoldingIphone />
+            <img src="src/assets/svgs/holding-iphone.svg" alt="app display" />
           </div>
         </div>
       </section>
@@ -187,7 +170,7 @@ function App() {
           <div className="grid w-[347px] gap-y-4 rounded-[18px] bg-azul-900 px-4 py-6">
             <div className="flex gap-x-4">
               {Array.from({ length: 5 }).map((_, index) => (
-                <Favourite />
+                <img src="src/assets/svgs/favourite.svg" alt="favourite icon" key={index} />
               ))}
             </div>
             <p>
@@ -203,7 +186,7 @@ function App() {
           <div className="grid w-[347px] gap-y-4 rounded-[18px] bg-azul-900 px-4 py-6">
             <div className="flex gap-x-4">
               {Array.from({ length: 5 }).map((_, index) => (
-                <Favourite />
+                <img src="src/assets/svgs/favourite.svg" alt="favourite icon" key={index} />
               ))}
             </div>
             <p>
@@ -219,7 +202,7 @@ function App() {
           <div className="grid w-[347px] gap-y-4 rounded-[18px] bg-azul-900 px-4 py-6">
             <div className="flex gap-x-4">
               {Array.from({ length: 5 }).map((_, index) => (
-                <Favourite />
+                <img src="src/assets/svgs/favourite.svg" alt="favourite icon" key={index} />
               ))}
             </div>
             <p>
@@ -235,7 +218,7 @@ function App() {
           <div className="grid w-[347px] gap-y-4 rounded-[18px] bg-azul-900 px-4 py-6">
             <div className="flex gap-x-4">
               {Array.from({ length: 5 }).map((_, index) => (
-                <Favourite />
+                <img src="src/assets/svgs/favourite.svg" alt="favourite icon" key={index} />
               ))}
             </div>
             <p>
@@ -253,7 +236,7 @@ function App() {
           <div className="grid w-[347px] gap-y-4 rounded-[18px] bg-azul-900 px-4 py-6">
             <div className="flex gap-x-4">
               {Array.from({ length: 5 }).map((_, index) => (
-                <Favourite />
+                <img src="src/assets/svgs/favourite.svg" alt="favourite icon" key={index} />
               ))}
             </div>
             <p>
@@ -269,7 +252,7 @@ function App() {
           <div className="grid w-[347px] gap-y-4 rounded-[18px] bg-azul-900 px-4 py-6">
             <div className="flex gap-x-4">
               {Array.from({ length: 5 }).map((_, index) => (
-                <Favourite />
+                <img src="src/assets/svgs/favourite.svg" alt="favourite icon" key={index} />
               ))}
             </div>
             <p>
@@ -285,7 +268,7 @@ function App() {
           <div className="grid w-[347px] gap-y-4 rounded-[18px] bg-azul-900 px-4 py-6">
             <div className="flex gap-x-4">
               {Array.from({ length: 5 }).map((_, index) => (
-                <Favourite />
+                <img src="src/assets/svgs/favourite.svg" alt="favourite icon" key={index} />
               ))}
             </div>
             <p>
@@ -303,7 +286,7 @@ function App() {
           <div className="grid w-[347px] gap-y-4 rounded-[18px] bg-azul-900 px-4 py-6">
             <div className="flex gap-x-4">
               {Array.from({ length: 5 }).map((_, index) => (
-                <Favourite />
+                <img src="src/assets/svgs/favourite.svg" alt="favourite icon" key={index} />
               ))}
             </div>
             <p>
@@ -319,7 +302,7 @@ function App() {
           <div className="grid w-[347px] gap-y-4 rounded-[18px] bg-azul-900 px-4 py-6">
             <div className="flex gap-x-4">
               {Array.from({ length: 5 }).map((_, index) => (
-                <Favourite />
+                <img src="src/assets/svgs/favourite.svg" alt="favourite icon" key={index} />
               ))}
             </div>
             <p>
@@ -335,7 +318,7 @@ function App() {
           <div className="grid w-[347px] gap-y-4 rounded-[18px] bg-azul-900 px-4 py-6">
             <div className="flex gap-x-4">
               {Array.from({ length: 5 }).map((_, index) => (
-                <Favourite />
+                <img src="src/assets/svgs/favourite.svg" alt="favourite icon" key={index} />
               ))}
             </div>
             <p>
@@ -351,7 +334,7 @@ function App() {
           <div className="grid w-[347px] gap-y-4 rounded-[18px] bg-azul-900 px-4 py-6">
             <div className="flex gap-x-4">
               {Array.from({ length: 5 }).map((_, index) => (
-                <Favourite />
+                <img src="src/assets/svgs/favourite.svg" alt="favourite icon" key={index} />
               ))}
             </div>
             <p>
@@ -369,27 +352,27 @@ function App() {
       <footer className="mx-auto mt-[250px] grid w-11/12 gap-y-12 pb-12 2xl:max-w-[1440px]">
         <div className="grid items-center gap-y-8 lg:grid-cols-[1.5fr_2fr]">
           <div className="grid gap-y-12">
-            <FooterLogo />
+            <img src="src/assets/svgs/footer-logo.svg" alt="Pristine logo" />
 
             <ul className="flex gap-x-12">
               <li>
                 <a href="#">
-                  <LinkedIn />
+                  <img src="src/assets/svgs/linkedin-02.svg" alt="linkedin icon" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <Instagram />
+                  <img src="src/assets/svgs/Instagram.svg" alt="instagram icon" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <Twitter />
+                  <img src="src/assets/svgs/new-twitter.svg" alt="twitter icon" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <Facebook />
+                  <img src="src/assets/svgs/facebook-02.svg" alt="facebook icon" />
                 </a>
               </li>
             </ul>
