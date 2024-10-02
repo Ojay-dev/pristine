@@ -27,7 +27,12 @@ function App() {
               Your go-to platform for flexible and reliable cleaning services, tailored to your needs.
             </p>
 
-            <button className="h-[52px] min-w-[223px] rounded-[58px] bg-white px-4 py-2 text-[#161525]">Join Waitlist</button>
+            <button
+              className="h-[52px] min-w-[223px] rounded-[58px] bg-white px-4 py-2 text-[#161525]"
+              onClick={() => window.open("https://forms.gle/TKr87nu2Vxih68CXA", "_blank")}
+            >
+              Join Waitlist
+            </button>
           </div>
         </div>
 
@@ -55,7 +60,12 @@ function App() {
               className="w-[335px] rounded-lg border border-chaos-black-300 px-4 py-4 text-sm"
             />
           </div>
-          <button className="h-[52px] min-w-[223px] rounded-[58px] bg-azul-600 px-4 py-2 text-white">Join Waitlist</button>
+          <button
+            className="h-[52px] min-w-[223px] rounded-[58px] bg-azul-600 px-4 py-2 text-white"
+            onClick={() => window.open("https://forms.gle/TKr87nu2Vxih68CXA", "_blank")}
+          >
+            Join Waitlist
+          </button>
         </div>
       </section>
 
@@ -162,7 +172,12 @@ function App() {
               placeholder="Email Address"
               className="w-[335px] rounded-lg border border-chaos-black-300 px-4 py-4 text-sm"
             />
-            <button className="h-[52px] min-w-[333px] rounded-[58px] bg-azul-600 px-4 py-2 text-white">Join Waitlist</button>
+            <button
+              className="h-[52px] min-w-[333px] rounded-[58px] bg-azul-600 px-4 py-2 text-white"
+              onClick={() => window.open("https://forms.gle/TKr87nu2Vxih68CXA", "_blank")}
+            >
+              Join Waitlist
+            </button>
           </div>
         </div>
 
